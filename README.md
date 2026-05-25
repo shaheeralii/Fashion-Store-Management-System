@@ -1,6 +1,6 @@
 # 🧵 Shaheer's Fashion Designing Store — Product Management System
 
-A console-based C++ application built to manage fashion product records for a designing store. Developed independently as an **Open-Ended Lab Exam project** for the 1st Semester CS course.
+We were assigned to develop a console-based C++ application to manage fashion product records for a designing store. This is developed independently as an **Open-Ended Lab Exam Finals project** for the 1st Semester CS course.
 
 ---
 
