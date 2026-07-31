@@ -18,9 +18,10 @@ int currentcount = 0;
 void addprodDetails(Product arr[], int maxSize, int &count) {
 	if (count >= maxSize) {
 		cout << "\nNot enough space available to store more records!";
+		return;
 	}
 
-	cout << "\nAdding a product\nEnter Details for Product " << count + 1;
+	cout << "\n===Adding a product===\nEnter Details for Product " << count + 1;
 	cout << "\nDesign ID: ";
 	cin >> arr[count].design_ID;
 
@@ -47,7 +48,7 @@ void calcRevenue(Product arr[], int count) {
 	string demand;
 	double makeCost, revenue, profitLoss;
 
-	cout << "\nEnter ID to search to calculate cost: ";
+	cout << "\nSearch a Design ID to calculate its cost: ";
 	cin >> searchID;
 
 	for (int i = 0; i < count; i++) {
@@ -73,7 +74,7 @@ void calcRevenue(Product arr[], int count) {
 	}
 
 	if (!found) {
-		cout << "\nID not found!";
+		cout << "\nDesign ID not found!";
 	}
 }
 
