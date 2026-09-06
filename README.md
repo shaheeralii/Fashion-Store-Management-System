@@ -109,8 +109,9 @@ Denim Jacket
 ```text
 Fashion-Store-Management-System/
 ├── main.cpp             # Full source code
-├── productdetails.txt   # Generated on save; stores product records
-└── README.md
+├── .gitignore           # Excludes generated and unnecessary files from Git
+├── productdetails.txt   # Generated on save; stores product records (provided as a sample here)
+└── README.md            # Project documentation
 ```
 
 ## Build & Run
